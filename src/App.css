@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f5f2;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 480px) {
+  .card-preview {
+    width: 90vw;
+    height: 90vw;
+  }
+  .text-message, .text-dear, .text-from {
+    font-size: 10px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.font-serif {
+  font-family: 'Pacifico', cursive;
+}
+
+.app-container {
   min-height: 100vh;
+  padding: 20px;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 320px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.input, .textarea {
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.error-text {
+  color: red;
+  font-size: 12px;
+}
+
+.download-button {
+  background-color: #007bff;
   color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
 }
 
-.App-link {
-  color: #61dafb;
+.download-button:hover {
+  background-color: #0056b3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-preview {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.text-dear {
+  position: absolute;
+  top: 96px;
+  left: 145px;
+  font-size: 12px;
+  font-family: 'Pacifico', cursive;
+  color: #5c4033;
+}
+
+.text-message {
+  position: absolute;
+  top: 120px;
+  left: 95px;
+  width: 120px;
+  color: #333;
+}
+
+.message-line {
+  font-size: 11px;
+  font-family: 'Pacifico', cursive;
+  line-height: 27px; /* Matches your specified line-height */
+  white-space: pre; /* penting: agar newline dihormati dan tidak wrap otomatis */
+  overflow-wrap: normal; /* cegah pemecahan kata */
+  word-break: keep-all;   /* jangan potong kata di tengah */
+}
+
+/* Style the textarea to match the preview */
+.message-input {
+  width: 180px; /* Matches .text-message width */
+  font-size: 11px; /* Matches .message-line font-size */
+  font-family: 'Pacifico', cursive; /* Matches .message-line font */
+  line-height: 26px; /* Matches .message-line line-height */
+  resize: none; /* Prevents resizing */
+  padding: 4px;
+  box-sizing: border-box;
+}
+.text-from {
+  position: absolute;
+  bottom: 122px;
+  left: 130px;
+  font-size: 12px;
+  font-family: 'Pacifico', cursive;
+  color: #5c4033;
 }
