@@ -4,7 +4,7 @@
 A React web app for creating personalized greeting cards with precise text overlay. Upload templates, customize messages, and download finished cards as PNGs. Built with **React 19**, **Vitest**, and **html2canvas**.
 
 Demo: [Live Preview](https://prnt.sc/VXhsBQBSUAZo)
-Template Asset: [Google Drive](https://drive.google.com/file/d/1H4j6F5UcR4E6kZmUY7SxX7uNpTAuW0dG/view)
+Template Asset: [Google Drive](https://drive.google.com/file/d/1exO_gxYNIX4IP1q68y47odWz6y762stt/view)
 
 ---
 
