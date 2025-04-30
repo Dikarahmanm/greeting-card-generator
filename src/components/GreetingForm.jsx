@@ -14,11 +14,11 @@ function GreetingForm({
   return (
     <div className="form-container">
       <div>
-        <label className="label">Upload Template Image</label>
-        <input type="file" accept="image/*" onChange={onImageUpload} />
+        <label className="label" htmlFor="template-upload">Upload Template Image</label>
+        <input id="template-upload" type="file" accept="image/*" onChange={onImageUpload} />
       </div>
       <div>
-        <label className="label">Dear (max 15 characters)</label>
+        <label className="label" htmlFor="dear">Dear (max 15 characters)</label>
         <input
           className="input"
           value={dear}
@@ -27,7 +27,7 @@ function GreetingForm({
         />
       </div>
       <div>
-        <label className="label">Message (max 30 chars no spaces, 32 with spaces)</label>
+        <label className="label" htmlFor="message">Message (max 30 chars no spaces, 32 with spaces)</label>
         <textarea
           className="textarea message-input"
           rows="2"
@@ -37,7 +37,7 @@ function GreetingForm({
         />
       </div>
       <div>
-        <label className="label">From (max 18 characters)</label>
+        <label className="label"htmlFor="from">From (max 18 characters)</label>
         <input
           className="input"
           value={from}
