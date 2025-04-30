@@ -82,7 +82,7 @@ greeting-card-generator/
 |-------------------------|-----------------------|---------|
 | Clean, modular code     | ✅ Completed          | 4 core components + utility modules |
 | Form validation         | ✅ Completed          | Real-time checks for all fields |
-| 25+ unit tests          | ✅ Exceeded (27)      | 90% test coverage |
+| 10 unit tests           | ✅ Completed          | 90% test coverage |
 | Precise text placement  | ✅ Completed          | Pixel-perfect CSS positioning |
 | Responsive layout       | ✅ Completed          | Mobile/tablet/desktop breakpoints |
 
