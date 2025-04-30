@@ -1,9 +1,9 @@
 import React, { useRef, useState } from "react";
 import html2canvas from "html2canvas";
 import "./App.css";
-import GreetingForm from "./components/GreetingForm.jsx";
-import CardPreview from "./components/CardPreview.jsx";
-import { validateMessage } from "./components/helpers.js";
+import GreetingForm from "./components/GreetingForm.jsx"; // Ensure .jsx
+import CardPreview from "./components/CardPreview.jsx"; // Ensure .jsx
+import { validateMessage } from "./components/helpers.js"; // Ensure .js
 
 function App() {
   const [image, setImage] = useState(null);

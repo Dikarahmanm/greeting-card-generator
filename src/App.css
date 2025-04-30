@@ -55,6 +55,7 @@ body {
   width: 100%;
   padding: 6px 8px;
   border: 1px solid #ccc;
+  font-family: 'Pacifico', cursive;
   border-radius: 4px;
   font-size: 14px;
 }
@@ -110,19 +111,19 @@ body {
 .message-line {
   font-size: 11px;
   font-family: 'Pacifico', cursive;
-  line-height: 27px; /* Matches your specified line-height */
-  white-space: pre; /* penting: agar newline dihormati dan tidak wrap otomatis */
-  overflow-wrap: normal; /* cegah pemecahan kata */
-  word-break: keep-all;   /* jangan potong kata di tengah */
+  line-height: 27px;
+  white-space: pre; 
+  overflow-wrap: normal; 
+  word-break: keep-all;
 }
 
-/* Style the textarea to match the preview */
+
 .message-input {
-  width: 180px; /* Matches .text-message width */
-  font-size: 11px; /* Matches .message-line font-size */
-  font-family: 'Pacifico', cursive; /* Matches .message-line font */
-  line-height: 26px; /* Matches .message-line line-height */
-  resize: none; /* Prevents resizing */
+  width: 180px;
+  font-size: 11px;
+  font-family: 'Pacifico', cursive; 
+  line-height: 26px; 
+  resize: none; 
   padding: 4px;
   box-sizing: border-box;
 }
