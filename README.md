@@ -1,4 +1,3 @@
-
 🎨 Greeting Card Generator
 
 A React web app for creating personalized greeting cards with precise text overlay. Upload templates, customize messages, and download finished cards as PNGs. Built with **React 19**, **Vitest**, and **html2canvas**.
@@ -69,7 +68,7 @@ greeting-card-generator/
 │   ├── assets/             # Default templates
 │   ├── App.jsx             # Root component
 │   └── main.jsx            # Entry point
-├── __tests__/              # 25+ unit tests
+├── __tests__/              # 10 unit tests
 ├── public/                 # Static assets
 └── vitest.config.js        # Test configuration
 ```
